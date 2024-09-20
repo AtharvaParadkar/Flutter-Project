@@ -46,8 +46,8 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Center(
           child: Padding(
             padding: const EdgeInsets.all(60),
-            child: Image.network(
-                'https://strapi.dhiwise.com/uploads/crafting_a_captivating_flutter_splash_screen_igniting_visual_appealog_image_6535f1634dc09_80e4a43a6c.webp'),
+            child: Image.asset(
+                'assets/images/flutter_splash_screen.jpg'),
           ),
         ),
       ),
